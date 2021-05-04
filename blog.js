@@ -11,3 +11,15 @@ document.getElementById("returnBtn1ID").addEventListener('click', function(){
     document.getElementById("mainArticleContainerID").style.display = "flex";
     document.getElementById("container2ID").style.display = "flex";
 })
+
+document.getElementById("exitIcon1ContainerID").addEventListener('mouseenter', function(){
+    document.getElementById("returnBtn1ID").style.display = "flex";
+    document.getElementById("returnBtn2ID").style.display = "none";
+
+})
+
+document.getElementById("exitIcon1ContainerID").addEventListener('mouseleave', function(){
+    document.getElementById("returnBtn1ID").style.display = "none";
+    document.getElementById("returnBtn2ID").style.display = "flex";
+
+})

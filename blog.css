@@ -89,7 +89,33 @@ nav{
 }
 
 
+/* Lay-out of the articles when clicked*/
 .article{
     display: none;
     flex-direction: column;
+    align-items: center;
+    width: 80rem;
+    height: auto;
+    border: 0.1rem solid red;
+}
+
+.articleHeader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.inArticleTitle{
+    margin-left: 33%;
+    margin-right: 33%;
+}
+
+.exitBtn{
+    justify-self: flex-end;
+}
+
+#returnBtn1ID{
+    display: none;
 }
