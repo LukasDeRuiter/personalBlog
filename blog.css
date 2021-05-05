@@ -123,5 +123,14 @@ nav{
 .theText{
     margin-left: 25rem;
     margin-right: 25rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+
+.theTextIndented{
+    margin-left: 25rem;
+    margin-right: 25rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
     text-indent: 2rem;
 }
