@@ -23,3 +23,7 @@ document.getElementById("exitIcon1ContainerID").addEventListener('mouseleave', f
     document.getElementById("returnBtn2ID").style.display = "flex";
 
 })
+
+window.onscroll = function(){
+    console.log(Math.floor((window.scrollY / document.body.scrollHeight) * 100));
+}
