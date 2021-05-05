@@ -119,3 +119,9 @@ nav{
 #returnBtn1ID{
     display: none;
 }
+
+.theText{
+    margin-left: 25rem;
+    margin-right: 25rem;
+    text-indent: 2rem;
+}
