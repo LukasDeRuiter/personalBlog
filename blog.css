@@ -1,3 +1,11 @@
+*{
+    font-family: 'Old Standard TT', serif;
+}
+
+html{
+    font-size: 100%;
+}
+
 header{
     display: flex;
     justify-content: center;
@@ -23,7 +31,7 @@ nav{
 .mainContainer{
     display: flex;
     justify-content: center;
-    background-color: gray;
+    background-color: black;
     width: 100vw;
     height: auto;
 }
@@ -66,37 +74,39 @@ nav{
 }
 
 .articleTitle{
-
+    color: white;
 }
 
 .articleDate{
-
+    color: white;
 }
 
 .articleText{
     text-align: left;
     width: 100%;
     height: 20rem;
-
-
-
-  
-    
+    color: white;
 }
 
 .readMoreBtn{
     margin-top: auto;
 }
 
+.aboutMeText{
+    color: white;
+}
 
 /* Lay-out of the articles when clicked*/
 .article{
+    margin-top: 5rem;
     display: none;
     flex-direction: column;
     align-items: center;
-    width: 80rem;
+    width: 40rem;
     height: auto;
-    border: 0.1rem solid red;
+    border: 0.3rem solid white;
+    border-radius: 0.1rem;
+    box-shadow: 0 0 1rem rgb(6, 114, 24), 0 0 10rem rgb(6, 114, 24);
 }
 
 .articleHeader{
@@ -108,12 +118,25 @@ nav{
 }
 
 .inArticleTitle{
-    margin-left: 33%;
-    margin-right: 33%;
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.inArticleSubtitle{
+    color: white;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 0;
+    font-size: 2rem;
 }
 
 .exitBtn{
     justify-self: flex-end;
+    color: gray;
 }
 
 #returnBtn1ID{
@@ -121,16 +144,20 @@ nav{
 }
 
 .theText{
-    margin-left: 25rem;
-    margin-right: 25rem;
+    color: white;
+    margin-left: 7rem;
+    margin-right: 7rem;
     margin-top: 0rem;
     margin-bottom: 0rem;
+    line-height: 1.6;
 }
 
 .theTextIndented{
-    margin-left: 25rem;
-    margin-right: 25rem;
+    color: white;
+    margin-left: 7rem;
+    margin-right: 7rem;
     margin-top: 0rem;
     margin-bottom: 0rem;
     text-indent: 2rem;
+    line-height: 1.6;
 }
