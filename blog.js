@@ -40,7 +40,8 @@ window.onscroll = function(){
         image1.style.animation = "disappear 0.5s 1";
         image1Text.style.animation = "disappear 0.5s 1";
         image1.onanimationend = function(){
-            image1.src = "article1Img1.png";
+            image1.src = "article1Percentage0.jpg";
+            image1Text.innerHTML = "Dark Souls";
             image1.style.animation = "appear 0.5s 1";
             image1Text.style.animation = "appear 0.5s 1";
         }
