@@ -4,13 +4,17 @@
 
 html{
     font-size: 100%;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 header{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
+    width: 100rem;
     height: 6rem;
     background-color: #000000;
     color: white;
@@ -20,12 +24,13 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
+    width: 100rem;
     height: 4rem;
     background-image: linear-gradient(to right, rgb(44, 44, 44), rgb(88, 88, 88));
     color: white;
     position: sticky;
     top: 0;
+    margin-bottom: 10rem;
 }
 
 .navElement{
@@ -40,7 +45,8 @@ nav{
     display: flex;
     justify-content: center;
     background-color: black;
-    width: 100vw;
+    width: 100rem;
+    margin: 0;
     height: auto;
 }
 
@@ -177,6 +183,9 @@ nav{
 }
 
 .imageContainer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
     width: 20rem;
     height: 20rem;
     position: sticky;
@@ -185,7 +194,14 @@ nav{
 
 .sideImg{
     width: 100%;
-    height: 100%;
+    height: 80%;
+}
+
+.imgDescription{
+    width: 100%;
+    height: 20%;
+    color: white;
+
 }
 
 @keyframes noAnimation{
