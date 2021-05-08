@@ -38,12 +38,20 @@ window.onscroll = function(){
 
     if(scrollPercentage < 20 && userScrollLocation != 1){
         image1.style.animation = "disappear 0.5s 1";
+        image2.style.animation = "disappear 0.5s 1";
+        image2Text.style.animation = "disappear 0.5s 1";
         image1Text.style.animation = "disappear 0.5s 1";
         image1.onanimationend = function(){
             image1.src = "article1Percentage0.jpg";
             image1Text.innerHTML = "Dark Souls";
             image1.style.animation = "appear 0.5s 1";
             image1Text.style.animation = "appear 0.5s 1";
+        }
+        image2.onanimationend = function(){
+            image2.style.animation = "appear 0.5s 1";
+            image2Text.style.animation = "appear 0.5s 1";
+            image2.src = "article1Percentage0Num2.jpg";
+            image2Text.innerHTML = "Player facing the Great Gray Wolf Sith";
         }
         userScrollLocation = 1;
     }
