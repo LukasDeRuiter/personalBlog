@@ -182,6 +182,15 @@ nav{
     line-height: 1.6;
 }
 
+.footnotes{
+    color: white;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    margin-top: 0rem;
+    margin-bottom: 5rem;
+    line-height: 1.6; 
+}
+
 .imageContainer{
     display: flex;
     flex-direction: column;
