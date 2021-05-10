@@ -54,7 +54,8 @@ nav{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 20rem;
+    text-align: center;
+    width: 50rem;
     height: 25rem;
     position: sticky;
     top: 6rem;
@@ -72,9 +73,10 @@ nav{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 35rem;
+    width: 50rem;
     height: auto;
     border: 3px solid red;
+    margin-right: 5rem;
 
 }
 
